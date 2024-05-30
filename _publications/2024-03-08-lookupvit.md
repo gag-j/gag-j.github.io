@@ -1,6 +1,6 @@
 ---
 title: "LookupViT: Compressing Visual Information to a smaller number of tokens"
-authors_before: "Rajat Koner"
+authors_before: "Rajat Koner, "
 authors_after: ", Sujoy Paul, Prateek Jain, Volker Tresp"
 award: ""
 collection: publications
