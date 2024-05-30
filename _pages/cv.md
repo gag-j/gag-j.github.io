@@ -11,71 +11,7 @@ redirect_from:
 
 <!-- taken from https://emiliendupont.github.io/resume/  -->
 
-Updated June 2021.
-
-Education 🎓
-======
-
-<!-- PhD -->
-<div style="display:flex;">
-
-  <div style="flex:0.5; padding-right:5%">
-    <img src="{{ site.url }}/images/resume/stanford.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
-  </div>
-
-  <div style="flex:4;">
-    <p style="margin:0px">
-      <b style="font-size: 130%;">Stanford University</b>
-      <span style="float:right; font-size:80%; color:#7a7a7a;">2021 -</span>
-    </p>
-    PhD Computer Science (AI)
-    <div style="color:#7a7a7a">
-      Co-advised by Tatsu Hashimoto and Percy Liang
-    </div>
-  </div>
-</div>
-<hr style="height:1em; margin:0em; visibility:hidden;" />
-
-<!-- MS -->
-<div style="display:flex;">
-
-  <div style="flex:0.5; padding-right:5%">
-    <img src="{{ site.url }}/images/resume/cambridge.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
-  </div>
-
-  <div style="flex:4;">
-    <p style="margin:0px">
-      <b style="font-size: 130%;">University of Cambridge</b>
-      <span style="float:right; font-size:80%; color:#7a7a7a;">2018 - 2019</span>
-    </p>
-    MPhil in Machine Learning
-    <!-- <div style="color:#7a7a7a">
-      Advised by 
-    </div> -->
-  </div>
-</div>
-<hr style="height:1em; margin:0em; visibility:hidden;" />
-
-
-<!-- BSc -->
-<div style="display:flex;">
-
-  <div style="flex:0.5; padding-right:5%">
-    <img src="{{ site.url }}/images/resume/epfl.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
-  </div>
-
-  <div style="flex:4;">
-    <p style="margin:0px">
-      <b style="font-size: 130%;">EPFL</b>
-      <span style="float:right; font-size:80%; color:#7a7a7a;">2014 - 2017</span>
-    </p>
-    BSc Biomedical Engineering
-    <!-- <div style="color:#7a7a7a">
-      Rank: 1/198 students
-    </div> -->
-  </div>
-</div>
- <hr style="height:2em; margin:0em; visibility:hidden;" />
+Updated May 2024.
 
 
 Work experience 💼
@@ -84,17 +20,17 @@ Work experience 💼
 <div style="display:flex;">
 
   <div style="flex:0.5; padding-right:5%">
-    <img src="{{ site.url }}/images/resume/vector.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+    <img src="{{ site.url }}/images/resume/gdm.jpg" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
   </div>
 
   <div style="flex:4;">
     <p style="margin:0px">
-      <b style="font-size: 130%;">Vector Institute</b>
-      <span style="float:right; font-size:80%; color:#7a7a7a;">Nov 2020 - Aug 2021</span>
+      <b style="font-size: 130%;">Google DeepMind</b>
+      <span style="float:right; font-size:80%; color:#7a7a7a;">Sept 2023 - Present</span>
     </p>
-    Research Intern
+    Pre-Doctoral Researcher
     <div style="color:#7a7a7a">
-      Research on representation learning and information theory
+      Research on Machine Learning and Optimization
     </div>
   </div>
 </div>
@@ -104,17 +40,17 @@ Work experience 💼
 <div style="display:flex;">
 
   <div style="flex:0.5; padding-right:5%">
-    <img src="{{ site.url }}/images/resume/facebook.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+    <img src="{{ site.url }}/images/resume/msft.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
   </div>
 
   <div style="flex:4;">
     <p style="margin:0px">
-      <b style="font-size: 130%;">Facebook AI Research</b>
-      <span style="float:right; font-size:80%; color:#7a7a7a;">Sep 2019 - Sep 2020</span>
+      <b style="font-size: 130%;">Microsoft</b>
+      <span style="float:right; font-size:80%; color:#7a7a7a;">July 2022 - Sep 2023</span>
     </p>
-    Facebook AI Resident
+    Data and Applied Scientist
     <div style="color:#7a7a7a">
-      Research on representation learning
+      R&D on sparse recommender systems
     </div>
   </div>
 </div>
@@ -124,17 +60,17 @@ Work experience 💼
 <div style="display:flex;">
 
   <div style="flex:0.5; padding-right:5%">
-    <img src="{{ site.url }}/images/resume/uva.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+    <img src="{{ site.url }}/images/resume/coupa.jpeg" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
   </div>
 
   <div style="flex:4;">
     <p style="margin:0px">
-      <b style="font-size: 130%;">The University of Amsterdam</b>
-      <span style="float:right; font-size:80%; color:#7a7a7a;">May 2018 - Oct 2018</span>
+      <b style="font-size: 130%;">Coupa Software</b>
+      <span style="float:right; font-size:80%; color:#7a7a7a;">May 2021 - July 2021</span>
     </p>
-    Research Intern
+    Data Science Intern
     <div style="color:#7a7a7a">
-      Research on extrapolation and NLP
+      Applied work on transport cost prediction
     </div>
   </div>
 </div>
@@ -144,24 +80,24 @@ Work experience 💼
 <div style="display:flex;">
 
   <div style="flex:0.5; padding-right:5%">
-    <img src="{{ site.url }}/images/resume/grab.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+    <img src="{{ site.url }}/images/resume/cambridge.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
   </div>
 
   <div style="flex:4;">
     <p style="margin:0px">
-      <b style="font-size: 130%;">Grab</b>
-      <span style="float:right; font-size:80%; color:#7a7a7a;">Oct 2017 - Apr 2018</span>
+      <b style="font-size: 130%;">University of Cambridge</b>
+      <span style="float:right; font-size:80%; color:#7a7a7a;">May 2020 - July 2020</span>
     </p>
-    Data Scientist
+    Research Intern
     <div style="color:#7a7a7a">
-      I developed an algorithm that analysed reviews from 40M users in under-researched languages, e.g., Thai, Vietnamese, Burmese
+      Applied ML Research on Drug Spectroscopy
     </div>
   </div>
 </div>
  <hr style="height:1em; margin:0em; visibility:hidden;" />
 
 <!-- UBC -->
-<div style="display:flex;">
+<!-- <div style="display:flex;">
 
   <div style="flex:0.5; padding-right:5%">
     <img src="{{ site.url }}/images/resume/ubc.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
@@ -178,10 +114,10 @@ Work experience 💼
     </div>
   </div>
 </div>
- <hr style="height:1em; margin:0em; visibility:hidden;" />
+ <hr style="height:1em; margin:0em; visibility:hidden;" /> -->
 
 <!-- EPFL -->
-<div style="display:flex;">
+<!-- <div style="display:flex;">
 
   <div style="flex:0.5; padding-right:5%">
     <img src="{{ site.url }}/images/resume/epfl.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
@@ -198,28 +134,95 @@ Work experience 💼
     </div>
   </div>
 </div>
- <hr style="height:2em; margin:0em; visibility:hidden;" />
+ <hr style="height:2em; margin:0em; visibility:hidden;" /> -->
+
+Education 🎓
+======
+
+<!-- BTech -->
+<div style="display:flex;">
+
+  <div style="flex:0.5; padding-right:5%">
+    <img src="{{ site.url }}/images/resume/iitb.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+  </div>
+
+  <div style="flex:4;">
+    <p style="margin:0px">
+      <b style="font-size: 130%;">Indian Institute of Technology Bombay</b>
+      <span style="float:right; font-size:80%; color:#7a7a7a;">2018 - 2022</span>
+    </p>
+    B.Tech - Major:Mech Eng., Minor: CS + AI 
+    <div style="color:#7a7a7a">
+      Advised by Prof. Amit Sethi
+    </div>
+  </div>
+</div>
+<hr style="height:1em; margin:0em; visibility:hidden;" />
+
+<!-- MS
+<div style="display:flex;">
+
+  <div style="flex:0.5; padding-right:5%">
+    <img src="{{ site.url }}/images/resume/cambridge.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+  </div>
+
+  <div style="flex:4;">
+    <p style="margin:0px">
+      <b style="font-size: 130%;">University of Cambridge</b>
+      <span style="float:right; font-size:80%; color:#7a7a7a;">2018 - 2019</span>
+    </p>
+    MPhil in Machine Learning
+    <!-- <div style="color:#7a7a7a">
+      Advised by 
+    </div> -->
+  <!-- </div>
+</div>
+<hr style="height:1em; margin:0em; visibility:hidden;" /> --> -->
+
+
+<!-- BSc -->
+<!-- <div style="display:flex;">
+
+  <div style="flex:0.5; padding-right:5%">
+    <img src="{{ site.url }}/images/resume/epfl.png" style="align:left; border: 1px solid #d3d3d3; border-style: outset;">
+  </div>
+
+  <div style="flex:4;">
+    <p style="margin:0px">
+      <b style="font-size: 130%;">EPFL</b>
+      <span style="float:right; font-size:80%; color:#7a7a7a;">2014 - 2017</span>
+    </p>
+    BSc Biomedical Engineering
+    <!-- <div style="color:#7a7a7a">
+      Rank: 1/198 students
+    </div> -->
+  <!-- </div>
+</div>
+ <hr style="height:2em; margin:0em; visibility:hidden;" /> --> -->
+
+
+
   
 Awards 🌟
 ======
 <ul>
   <li>
-    <b>Knight-Hennessy Scholarship </b>
-    <span style="float:right; font-size:80%; color:#7a7a7a;">2021</span> <br>
-    <i>PhD funding</i>
+    <b>Department Technical Citation and Organisational Color</b>
+    <span style="float:right; font-size:80%; color:#7a7a7a;">2022</span> <br>
+    <i>Exemplery efforts towards technical and organisational activites throughout undergrad</i>
   </li>
 
   <li>
-    <b>Cambridge' Department of Engineering Scholarship </b>
-    <span style="float:right; font-size:80%; color:#7a7a7a;">2018</span> <br>
-    <i>MPhil funding</i>
+    <b>Mentorship Recognition Award</b>
+    <span style="float:right; font-size:80%; color:#7a7a7a;">2022</span> <br>
+    <i>Recognized for dedicated efforts towards mentoring freshmen and sophomores</i>
   </li>
-<!-- 
+
   <li>
-    <b>Valedictorian </b>
-    <span style="float:right; font-size:80%; color:#7a7a7a;">2018</span> <br>
-    <i>MPhil funding</i>
-  </li> -->
+    <b>Institute Technical Special Mention</b>
+    <span style="float:right; font-size:80%; color:#7a7a7a;">2020</span> <br>
+    <i>Institute wide recognition for technical excellence</i>
+  </li>
 
   <!-- <li>
     <b>Silicon Valley Startup Camp</b>
