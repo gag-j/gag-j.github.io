@@ -11,15 +11,12 @@ redirect_from:
 
 Hello!
 
-I'm a PhD student in machine learning at Stanford University co-advised by [Percy Liang](https://cs.stanford.edu/~pliang/) and [Tatsu Hashimoto](https://thashim.github.io/) and funded by a [Knights-Hennessy Scholarship](https://knight-hennessy.stanford.edu/). 
+I'm a pre-doctoral researcher in the [Machine Learning and Optimization](https://research.google/teams/india-research-lab/) team at [Google DeepMind](https://deepmind.google/), Bangalore, India. I am primarily advised by [Dr. Sujoy Paul](https://sujoyp.github.io/) and [Dr. Prateek Jain](https://www.prateekjain.org/) on efficiency in Computer Vision. I further collaborate with [Dr. Arun Suggala](https://research.google/people/arun-sai-suggala/) and [Dr. Karthikeyan Shanmugam](https://sites.google.com/corp/view/karthikeyan-shanmugam), on establishing stronger theoretical guarantees for Collaborative Bandit approaches. While not in direct pursuit currently, I maintain a keen interest in the field of Stochastic Optimization, as well as the intersection between Optimal Control and Reinforcement Learning.
 <!-- I strive to build AI technologies that are simultaneously open/accessible to all and safe/ethical.  -->
 
-Before starting my PhD, I traveled around trying to reconcile my passion for machine learning research and my entrepreneurial mindset.
-On the research side, I've worked extensively on learning representations of data that provide guarantees (fairness, robustness, etc) on downstream machine learning.
-For example, I've worked on such projects at the [Vector Institute](https://vectorinstitute.ai/) with [Chris Maddison](https://www.cs.toronto.edu/~cmaddis/) and as part of my [Facebook AI Residency](https://research.fb.com/programs/facebook-ai-residency-program/). 
-On the entrepreneurial side, I've applied AI in different startups. For example, developing algorithms at [Grab](https://en.wikipedia.org/wiki/Grab_(company)) to analyze text in under-research languages (Thai, Khmer, Burmese, ...); or predicting room occupancy at [SBS](https://sensiblebuildingscience.com/) to decrease the carbon footprint of large buildings in Vancouver.
+Prior to this, I spent an year at Microsoft India R&D, working in the Enterprise Commerce team as a Data & Applied Scientist, solving problems in the realm of extreme classification, machine learning of sets and recommender systems. This was directly after my graduation with a Bachelor (with Honors) degree in Mechanical Engineering from the [Indian Institute of Technology Bombay](https://www.iitb.ac.in), Mumbai, India, along with minor degrees in Computer Science as well as Machine Intelligence. During my undergrad, my focus was on robotics, including ground and aerial vehicles, especially autonomous driving.
 
-Outside of machine learning I spend my time playing sports with friends (:ski:,:mountain:,:badminton:,:volleyball:,:runner:), traveling, or reading about geopolitics.
+Outside of work, I spend my time playing sports with friends (:mountain:,:badminton:,:tennis:), traveling, or reading mystery thrillers.
 
 
 <!-- News
