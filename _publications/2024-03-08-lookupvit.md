@@ -7,7 +7,7 @@ collection: publications
 permalink: /publication/lookupvit
 tldr: 'An asyncronous version of attention with sub-quadratic scaling and superior performance.'
 date: 2024-03-08
-venue: 'ECCV 2024 (under review)'
+venue: 'ECCV 2024'
 preprint: '' 
 header: 
   teaser: 'papers/lookupvit/attention.png'
