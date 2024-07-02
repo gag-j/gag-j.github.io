@@ -21,11 +21,11 @@ Outside of work, I spend my time playing sports with friends (:mountain:,:badmin
 
 News
 ======
-- *July 2024*: I will be attending [ICML 2024](https://icml.cc/) with some of my colleagues from Google DeepMind. See you in Vienna!
-- *July 2024*: Our paper on sub-quadratic attention, *LookupViT* has been accepted to [ECCV 2024](https://eccv.ecva.net/) :D
-- *September 2023*: Moving to Google Research India, as a pre-doctoral researcher. I will primarily be working on efficient vision models.
-- *July 2022*: Joining Microsoft R&D, Hyderabad as a Data & Applied Scientist. I will be working on developing sparse recommendation systems.
-- *May 2022*: Graduated from IIT Bombay with majors and honors in Mechanical Engineering, and minors in Computer Science and Artificial Intelligence.
+- **July 2024**: I will be attending [ICML 2024](https://icml.cc/) with some of my colleagues from Google DeepMind. See you in Vienna!
+- **July 2024**: Our paper on sub-quadratic attention, **LookupViT** has been accepted to [ECCV 2024](https://eccv.ecva.net/) :D
+- **September 2023**: Moving to Google Research India, as a pre-doctoral researcher. I will primarily be working on efficient vision models.
+- **July 2022**: Joining Microsoft R&D, Hyderabad as a Data & Applied Scientist. I will be working on developing sparse recommendation systems.
+- **May 2022**: Graduated from IIT Bombay with majors and honors in Mechanical Engineering, and minors in Computer Science and Artificial Intelligence.
 
 
 
