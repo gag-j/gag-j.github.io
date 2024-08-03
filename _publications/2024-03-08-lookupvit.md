@@ -11,7 +11,7 @@ venue: 'ECCV 2024'
 preprint: '' 
 header: 
   teaser: 'papers/lookupvit/attention.png'
-# paper: 'https://arxiv.org/abs/2209.06235'
+paper: 'https://arxiv.org/abs/2407.12753'
 # code: 'https://github.com/yanndubs/invariant-self-supervised-learning' 
 # twitter: "https://twitter.com/yanndubs/status/1597218397150130177"
 link: ''
