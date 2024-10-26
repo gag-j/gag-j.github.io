@@ -11,7 +11,7 @@ redirect_from:
 
 <!-- taken from https://emiliendupont.github.io/resume/  -->
 
-Updated July 2024. A detailed PDF version can be found [here](https://drive.google.com/file/d/12Ol5Rwk5fWtZ4LED_jnrmDm5_gcNjoRH/view?usp=sharing).
+A detailed PDF version can be found [here](https://drive.google.com/file/d/12Ol5Rwk5fWtZ4LED_jnrmDm5_gcNjoRH/view?usp=sharing).
 
 
 Work experience 💼
