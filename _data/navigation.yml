@@ -12,14 +12,14 @@ main:
   # - title: "Portfolio"
   #   url: /portfolio/
         
-  - title: "Blog"
-    url: /year-archive/
+  # - title: "Blog"
+  #   url: /year-archive/
 
   # - title: "Resources"
   #   url: /resources/
 
-  - title: "ML Glossary"
-    url: /machine-learning-glossary/
+  # - title: "ML Glossary"
+  #   url: /machine-learning-glossary/
     
   - title: "CV"
     url: /cv/
@@ -28,8 +28,8 @@ main:
   #  url: /markdown/
 
 
-sidebar-glossary:
-  - title: "General ML concepts"
+# sidebar-glossary:
+  # - title: "General ML concepts"
     # url: /machine-learning-glossary/concepts/
   #   children:
   #     - title: "Curse of dimensionality"
