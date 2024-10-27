@@ -302,17 +302,17 @@ whitelist:
 # https://github.com/jekyll/jekyll-archives
 category_archive:
   type: jekyll-archives
-  path: /publications/
+  path: /categories/
 tag_archive:
   type: jekyll-archives
   path: /tags/
 jekyll-archives:
   enabled: all
   layouts:
-    category: archive-taxonomy
+    category: category-archive
     tag: archive-taxonomy
   permalinks:
-    category: /publications/:name/
+    category: /categories/:name/
     tag: /tags/:name/
 
 
