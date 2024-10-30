@@ -7,9 +7,11 @@ no_meta: true
 redirect_from: 
 ---
 
-Hello!
+Hello :wave:
 
 I'm a pre-doctoral researcher in the [Machine Learning and Optimization](https://research.google/teams/india-research-lab/) team at [Google DeepMind](https://deepmind.google/), Bangalore, India. My primary research interests are devoted towards generative models and foundations of deep learning.
+
+<a href="/bio/">Extended Bio</a>
 <!-- I am currently advised by [Dr. Sujoy Paul](https://sujoyp.github.io/) and [Dr. Prateek Jain](https://www.prateekjain.org/) on efficient machine learning models, and further collaborate with [Dr. Arun Suggala](https://research.google/people/arun-sai-suggala/) and [Dr. Karthikeyan Shanmugam](https://sites.google.com/corp/view/karthikeyan-shanmugam), on establishing stronger theoretical guarantees for Collaborative Bandit approaches. While not in direct pursuit currently, I maintain a keen interest in the field of Stochastic Optimization, as well as the intersection between Optimal Control and Reinforcement Learning. -->
 <!-- I strive to build AI technologies that are simultaneously open/accessible to all and safe/ethical.  -->
 
@@ -23,14 +25,20 @@ I'm a pre-doctoral researcher in the [Machine Learning and Optimization](https:/
 
 News
 ======
-- **Oct 2024**: New Preprint Alert! Check out our brand-new work on collaborative bandits [here](https://arxiv.org/abs/2410.21405)!
-- **Sept 2024**: Our paper **Mixture of Nested Experts** has been accepted at NeurIPS 2024 :D. See you in Vancouver!
-- **July 2024**: I will be attending [ICML 2024](https://icml.cc/) with some of my colleagues from Google DeepMind. See you in Vienna!
-- **July 2024**: Our paper on sub-quadratic attention, **LookupViT** has been accepted at ECCV 2024 :D
-- **September 2023**: Moving to Google Research India, as a pre-doctoral researcher. I will primarily be working on efficient vision models.
-- **July 2022**: Joining Microsoft R&D, Hyderabad as a Data & Applied Scientist. I will be working on developing sparse recommendation systems.
-- **May 2022**: Graduated from IIT Bombay with majors and honors in Mechanical Engineering, and minors in Computer Science and Artificial Intelligence.
 
-
+<ul style="font-size: 14px;">
+<li> <span style="color:red">[Oct'24]</span> <span style="color:green">[Paper]</span> Check out our brand-new work on <b>collaborative bandits</b> [here](https://arxiv.org/abs/2410.21405)!</li>
+<li> <span style="color:red">[Oct'24]</span> <span style="color:orange">[Talk]</span> Presented my work on inference-time efficiency at [MEDAL Group](https://www.ee.iitb.ac.in/web/labs/medical-deep-learning-and-artificial-intelligence-lab-medal/) in IIT Bombay </li>
+<li> <span style="color:red">[Sep'24]</span> <span style="color:green">[Paper]</span> Our foundational work <b>Mixture of Nested Experts</b> has been accepted at <span style="color:brown">NeurIPS</span> :D. See you in Vancouver :airplane:</li>
+<li> <span style="color:red">[Jul'24]</span> I will be attending <span style="color:brown">ICML</span> with my colleagues from Google DeepMind. See you in Vienna :airplane: </li>
+<li> <span style="color:red">[Jul'24]</span> <span style="color:green">[Paper]</span> Our paper on sub-quadratic attention, <b>LookupViT</b> has been accepted at <span style="color:brown">ECCV</span> :D </li>
+<li> <span style="color:red">[May'24]</span> We are now a part of Google Deepmind's Foundational Research Unit. Exciting times ahead! </li>
+<li> <span style="color:red">[Sep'23]</span> Moving to Google Research, as a pre-doctoral researcher. I will primarily be working on efficient deep learning </li>
+<li> <span style="color:red">[Jul'22]</span> Joining Microsoft R&D as a Data & Applied Scientist. I will be working on developing sparse recommendation systems </li>
+<li> <span style="color:red">[May'22]</span> Graduating from IIT Bombay with majors and honors in Mechanical Engineering, and minors in Computer Science and Artificial Intelligence </li>
+<li> <span style="color:red">[Apr'22]</span> Honored with <b>Department Technical Citation</b>, <b>Department Organizational Color</b> and <b>Institute Technical Special Mention</b> at the annual institute felicitations!</li>
+<li> <span style="color:red">[Apr'21]</span> <span style="color:orange">[Talk]</span> Presented my work on Model Predictive Control for Autonomous Driving in Virtual Research Symposium for Students, co-organised by IIT Bombay and NTU Singapore </li>
+<li> <span style="color:red">[Feb'19]</span> Asia-Pacific Champions! Our all freshmen team beats VIT Vellore in the nail-biting finals of ASME's Student Design Challenge!</li>
+</ul>
 
 
