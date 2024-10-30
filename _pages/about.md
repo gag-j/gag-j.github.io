@@ -9,9 +9,7 @@ redirect_from:
 
 Hello :wave:
 
-I'm a pre-doctoral researcher in the [Machine Learning and Optimization](https://research.google/teams/india-research-lab/) team at [Google DeepMind](https://deepmind.google/), Bangalore, India. My primary research interests are devoted towards generative models and foundations of deep learning.
-
-<a href="/bio/">Extended Bio</a>
+I'm a pre-doctoral researcher in the [Machine Learning and Optimization](https://research.google/teams/india-research-lab/) team at [Google DeepMind](https://deepmind.google/), Bangalore, India. My primary research interests are devoted towards generative models and foundations of deep learning. <a href="/bio/">[Extended Bio]</a>
 <!-- I am currently advised by [Dr. Sujoy Paul](https://sujoyp.github.io/) and [Dr. Prateek Jain](https://www.prateekjain.org/) on efficient machine learning models, and further collaborate with [Dr. Arun Suggala](https://research.google/people/arun-sai-suggala/) and [Dr. Karthikeyan Shanmugam](https://sites.google.com/corp/view/karthikeyan-shanmugam), on establishing stronger theoretical guarantees for Collaborative Bandit approaches. While not in direct pursuit currently, I maintain a keen interest in the field of Stochastic Optimization, as well as the intersection between Optimal Control and Reinforcement Learning. -->
 <!-- I strive to build AI technologies that are simultaneously open/accessible to all and safe/ethical.  -->
 
