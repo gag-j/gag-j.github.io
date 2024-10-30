@@ -23,6 +23,7 @@ I'm a pre-doctoral researcher in the [Machine Learning and Optimization](https:/
 
 News
 ======
+- **Oct 2024**: New Preprint Alert! Check out our brand-new work on collaborative bandits [here](https://arxiv.org/abs/2410.21405)!
 - **Sept 2024**: Our paper **Mixture of Nested Experts** has been accepted at NeurIPS 2024 :D. See you in Vancouver!
 - **July 2024**: I will be attending [ICML 2024](https://icml.cc/) with some of my colleagues from Google DeepMind. See you in Vienna!
 - **July 2024**: Our paper on sub-quadratic attention, **LookupViT** has been accepted at ECCV 2024 :D
