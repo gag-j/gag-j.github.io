@@ -27,8 +27,8 @@ News
 ======
 
 <ul style="font-size: 14px;">
-<li> <span style="color:red">[Oct'24]</span> <span style="color:green">[Paper]</span> Check out our brand-new work on <b>collaborative bandits</b> [here](https://arxiv.org/abs/2410.21405)!</li>
-<li> <span style="color:red">[Oct'24]</span> <span style="color:orange">[Talk]</span> Presented my work on inference-time efficiency at [MEDAL Group](https://www.ee.iitb.ac.in/web/labs/medical-deep-learning-and-artificial-intelligence-lab-medal/) in IIT Bombay </li>
+<li> <span style="color:red">[Oct'24]</span> <span style="color:green">[Paper]</span> Check out our brand-new work on <b>collaborative bandits</b> <a href="https://arxiv.org/abs/2410.21405">here</a>!</li>
+<li> <span style="color:red">[Oct'24]</span> <span style="color:orange">[Talk]</span> Presented my work on inference-time efficiency at <a href="https://www.ee.iitb.ac.in/web/labs/medical-deep-learning-and-artificial-intelligence-lab-medal/">MEDAL Group</a> in IIT Bombay </li>
 <li> <span style="color:red">[Sep'24]</span> <span style="color:green">[Paper]</span> Our foundational work <b>Mixture of Nested Experts</b> has been accepted at <span style="color:brown">NeurIPS</span> :D. See you in Vancouver :airplane:</li>
 <li> <span style="color:red">[Jul'24]</span> I will be attending <span style="color:brown">ICML</span> with my colleagues from Google DeepMind. See you in Vienna :airplane: </li>
 <li> <span style="color:red">[Jul'24]</span> <span style="color:green">[Paper]</span> Our paper on sub-quadratic attention, <b>LookupViT</b> has been accepted at <span style="color:brown">ECCV</span> :D </li>
