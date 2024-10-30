@@ -22,6 +22,8 @@
     @include prefix(0.5 of 12);
     @include suffix(2 of 12);
   }
+  width: 80%; // Adjust width
+  max-width: 2000px; // Maximum width
 
   .page__inner-wrap {
     @include full();
