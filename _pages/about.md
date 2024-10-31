@@ -42,6 +42,6 @@ News
 Found this cool widget
 =====
 
-<a href="https://clustrmaps.com/site/1c1z2" title="Visit Tracker"><img src="//clustrmaps.com/map_v2.js?d=U600mkYyjnXucg1kTmKnUH5nokSrVr-IWPD9akBU-r0&cl=ffffff&w=a"></a>
+<a href='https://clustrmaps.com/site/1c1z2'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=b3f3bd&w=a&t=n&d=U600mkYyjnXucg1kTmKnUH5nokSrVr-IWPD9akBU-r0&co=3daeff'/></a>
 
 
