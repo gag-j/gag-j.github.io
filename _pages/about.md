@@ -41,4 +41,7 @@ News
 <li> <span style="color:red">[Feb'19]</span> Asia-Pacific Champions! Our all freshmen team beats VIT Vellore in the nail-biting finals of ASME's Student Design Challenge!</li>
 </ul>
 
+Found this cool widget
+=====
 
+<a href='https://clustrmaps.com/site/1c1z2'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffe296&w=800&t=n&d=U600mkYyjnXucg1kTmKnUH5nokSrVr-IWPD9akBU-r0&co=40a7f0'/></a>
