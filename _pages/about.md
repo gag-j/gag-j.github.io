@@ -17,7 +17,7 @@ I'm a pre-doctoral researcher in the [Machine Learning and Optimization](https:/
 
 <!-- Outside of work, I spend my time playing (:mountain:,:badminton:,:tennis:), traveling, or reading mystery thrillers. -->
 
-<span style="color:blue;"> <b>I am applying for PhD positions in machine learning for Fall 2025.</b> </span>
+<!-- <span style="color:blue;"> <b>I am applying for PhD positions in machine learning for Fall 2025.</b> </span> -->
 
 
 
@@ -25,7 +25,8 @@ News
 ======
 
 <ul style="font-size: 14px;">
-<li> <span style="color:red">[Dec'24]</span> Will be in LA after NeurIPS, do reach out if you wanna meet! </li>
+<li> <span style="color:red">[Dec'24]</span> <span style="color:green">[Paper]</span> Our <b>collaborative bandits</b> <a href="https://arxiv.org/abs/2410.21405">paper</a> made it to AAMAS'25! Check out our neat little proof showing optimal regret bounds for our approach!</li>
+<li> <span style="color:red">[Dec'24]</span> <span style="color:orange">[Talk]</span> Presented my work on deep learning efficiency at <a href="https://www.uclaml.org/">UCLA Artificial General Intelligence Lab</a> </li>
 <li> <span style="color:red">[Dec'24]</span> I will be in Vancouver, presenting our paper on conditional computation at <span style="color:brown">NeurIPS</span> :airplane:</li>
 <li> <span style="color:red">[Oct'24]</span> <span style="color:green">[Paper]</span> Check out our brand-new work on <b>collaborative bandits</b> <a href="https://arxiv.org/abs/2410.21405">here</a>!</li>
 <li> <span style="color:red">[Oct'24]</span> <span style="color:orange">[Talk]</span> Presented my work on inference-time efficiency at <a href="https://www.ee.iitb.ac.in/web/labs/medical-deep-learning-and-artificial-intelligence-lab-medal/">MEDAL Group</a> in IIT Bombay </li>
