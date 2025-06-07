@@ -1,12 +1,12 @@
 ---
 permalink: /
-title: "Gagan Jain | About"
 excerpt: "Applied Scientist at Microsoft AI. Research in generative modeling and deep learning foundations."
 author_profile: true
 no_meta: true
 redirect_from: 
 ---
 
+<!-- Hero Card -->
 <div style="background:linear-gradient(120deg,#e3f2fd 0%,#fffde7 100%); border-radius:28px; padding:2.5em 3em 2em 3em; box-shadow:0 8px 32px rgba(25,118,210,0.13); margin-bottom:2.5em; border: 1.5px solid #e3f2fd; position:relative; overflow:hidden;">
   <div style="position:absolute; top:-60px; right:-60px; width:180px; height:180px; background:radial-gradient(circle at 40% 40%, #bbdefb 0%, #fffde7 100%); opacity:0.25; border-radius:50%; z-index:0;"></div>
   <h1 style="color:#1976d2; font-size:2.8rem; font-weight:900; margin-bottom:0.15em; letter-spacing:-1.5px; z-index:1; position:relative; text-shadow:0 2px 12px #e3f2fd;">
@@ -109,21 +109,31 @@ redirect_from:
 
 ---
 
-### LookupViT: Compressing Visual Information to a smaller number of tokens
+## <span style="color:#1976d2; font-weight:800; letter-spacing:-0.5px;">🌟 Featured Publication</span>
 
-<img src="/images/papers/lookupvit/attention.png" alt="LookupViT teaser" style="max-width:420px; border-radius:12px; box-shadow:0 2px 12px rgba(25,118,210,0.10); margin-bottom:0.7em;">
+<div style="display:flex; align-items:center; gap:2em; flex-wrap:wrap; background:linear-gradient(120deg,#e3f2fd 0%,#fffde7 100%); border-radius:20px; padding:1.7em 2em 1.5em 2em; box-shadow:0 4px 18px rgba(25,118,210,0.10); margin-bottom:2em; border:1.5px solid #e3f2fd;">
 
-**Rajat Koner, Gagan Jain, Prateek Jain, Volker Tresp, Sujoy Paul**  
-<span style="color:#1976d2; font-weight:bold;">ECCV 2024</span>  
-<span style="background:#e3f2fd; color:#1976d2; border-radius:8px; padding:2px 8px; font-size:0.95em;">Vision</span>
-<span style="background:#fffde7; color:#f57c00; border-radius:8px; padding:2px 8px; font-size:0.95em;">Efficiency</span>
+  <img src="/images/papers/lookupvit/attention.png" alt="LookupViT teaser" style="width:220px; border-radius:14px; box-shadow:0 2px 12px rgba(25,118,210,0.10); margin-bottom:0.7em; flex-shrink:0;">
 
-**TL;DR:**  
-An asynchronous version of attention with sub-quadratic scaling and superior performance.
-
-[Paper &rarr;](https://arxiv.org/abs/2407.12753)
-&nbsp;|&nbsp;
-[Twitter](https://x.com/gaganjain1582/status/1813951259222921629)
+  <div style="flex:1; min-width:220px;">
+    <div style="font-size:1.18em; font-weight:800; color:#1976d2; margin-bottom:0.18em;">
+      LookupViT: Compressing Visual Information to a smaller number of tokens
+    </div>
+    <div style="font-size:1.03em; color:#333; margin-bottom:0.25em;">
+      <b>Rajat Koner, Gagan Jain, Prateek Jain, Volker Tresp, Sujoy Paul</b>
+    </div>
+    <div style="margin-bottom:0.45em;">
+      <span style="color:#1976d2; font-weight:bold; font-size:1.04em;">ECCV 2024</span>
+      <span style="background:#e3f2fd; color:#1976d2; border-radius:8px; padding:2px 10px; font-size:0.97em; margin-left:0.5em;">Vision</span>
+      <span style="background:#fffde7; color:#f57c00; border-radius:8px; padding:2px 10px; font-size:0.97em; margin-left:0.3em;">Efficiency</span>
+    </div>
+    <div style="color:#444; font-size:1.03em; margin-bottom:0.6em;">
+      <b>TL;DR:</b> An asynchronous version of attention with sub-quadratic scaling and superior performance.
+    </div>
+    <a href="https://arxiv.org/abs/2407.12753" style="font-weight:700; color:#fff; background:linear-gradient(90deg,#1976d2 60%,#64b5f6 100%); border-radius:10px; padding:0.42em 1.2em; text-decoration:none; margin-right:0.7em; box-shadow:0 2px 8px rgba(25,118,210,0.10);">Read Paper</a>
+    <a href="https://x.com/gaganjain1582/status/1813951259222921629" style="font-weight:700; color:#1976d2; background:#e3f2fd; border-radius:10px; padding:0.42em 1.2em; text-decoration:none; margin-right:0.7em; box-shadow:0 2px 8px rgba(25,118,210,0.07);">Twitter</a>
+  </div>
+</div>
 
 ---
 
