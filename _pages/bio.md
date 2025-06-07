@@ -5,13 +5,21 @@ author_profile: true
 redirect_from: 
 ---
 
-Hello!
+# <span style="color:#1976d2;">👤 About Me</span>
 
-I'm a pre-doctoral researcher in the [Machine Learning and Optimization](https://research.google/teams/india-research-lab/) team at [Google DeepMind](https://deepmind.google/), Bangalore, India. My primary research interests are devoted towards generative models and foundations of deep learning.
+Hello!  
+I'm an **Applied Scientist at Microsoft AI**. Previously, I was a pre-doctoral researcher in the [Machine Learning and Optimization](https://research.google/teams/india-research-lab/) team at [Google DeepMind](https://deepmind.google/), Bangalore, India. My primary research interests are in **generative models** and the **foundations of deep learning**.
 
-I am currently advised by [Dr. Sujoy Paul](https://sujoyp.github.io/) and [Dr. Prateek Jain](https://www.prateekjain.org/) on efficient machine learning models, and further collaborate with [Dr. Arun Suggala](https://research.google/people/arun-sai-suggala/) and [Dr. Karthikeyan Shanmugam](https://sites.google.com/corp/view/karthikeyan-shanmugam), on establishing stronger theoretical guarantees for Collaborative Bandit approaches. While not in direct pursuit currently, I also maintain a keen interest in the field of Stochastic Optimization, as well as the intersection between Optimal Control and Reinforcement Learning.
+**At Google DeepMind**, I was advised by [Dr. Sujoy Paul](https://sujoyp.github.io/), [Dr. Prateek Jain](https://www.prateekjain.org/), [Dr. Arun Suggala](https://research.google/people/arun-sai-suggala/), and [Dr. Karthikeyan Shanmugam](https://sites.google.com/corp/view/karthikeyan-shanmugam), working on efficient machine learning models, reinforcement learning for diffusion models, and theoretical guarantees for collaborative bandit approaches. I also maintain a keen interest in unsupervised post-training for large language models, particularly via reinforcement learning.
 
-Prior to this, I spent an year at Microsoft India R&D, working in the Enterprise Commerce team as a Data & Applied Scientist, solving problems in the realm of extreme classification, machine learning of sets and recommender systems. This was directly after my graduation with a Bachelor (with Honors) degree in Mechanical Engineering from the [Indian Institute of Technology Bombay](https://www.iitb.ac.in), Mumbai, India, along with minor degrees in Computer Science as well as Machine Intelligence. During my undergrad, my focus was on robotics, including ground and aerial vehicles, especially autonomous driving.
+Previously, I spent a year at Microsoft India R&D as a Data & Applied Scientist, working on extreme classification, machine learning of sets, and recommender systems. I graduated with a **B.Tech (Hons.) in Mechanical Engineering** from the [Indian Institute of Technology Bombay](https://www.iitb.ac.in), with minors in Computer Science and Machine Intelligence. During my undergrad, I focused on robotics (ground and aerial vehicles), especially autonomous driving.
 
-Outside of work, I spend my time playing (:mountain:,:badminton:,:tennis:), traveling, or reading mystery thrillers.
+## <span style="color:#1976d2;">🌱 Beyond Work</span>
+
+Outside of research, I enjoy hiking 🏔️, badminton 🏸, tennis 🎾, traveling 🌏, and reading mystery thrillers 📚.
+
+
+<div style="margin-top:2em; color:#888; font-size:0.95em;">
+  <em>Last updated: June 2025</em>
+</div>
 
