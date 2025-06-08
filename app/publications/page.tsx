@@ -1,4 +1,3 @@
-import Navbar from "../Navbar";
 import Image from "next/image";
 
 const publications = [
@@ -57,7 +56,6 @@ export default function PublicationsPage() {
 	const sortedPublications = [...publications].sort((a, b) => b.date.localeCompare(a.date));
 	return (
 		<div className="min-h-screen flex flex-col relative overflow-hidden bg-black">
-			<Navbar />
 			<main className="min-h-screen flex flex-col items-center justify-start bg-black/90 px-4 pt-32 pb-16">
 				<h1 className="text-4xl md:text-5xl font-extrabold text-blue-400 mb-10 tracking-tight">
 					All Publications

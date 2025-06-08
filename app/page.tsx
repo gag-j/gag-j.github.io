@@ -64,83 +64,45 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col relative overflow-hidden animate-gradient-bg" style={{background: 'linear-gradient(120deg, #0f2027 0%, #2c5364 40%, #ff9800 100%)'}}>
       <div className="aurora" />
-      {/* Top Navigation - modern, spaced, and fixed at the very top with logo */}
-      <nav className="fixed top-0 left-0 w-full flex items-center gap-10 px-10 py-5 z-30 bg-gradient-to-r from-black/90 via-blue-950/80 to-yellow-900/70 backdrop-blur-2xl border-b-2 border-blue-400/30 shadow-2xl shadow-blue-900/30 animate-fade-in-down">
-        <span className="text-white text-3xl font-extrabold tracking-widest mr-14 select-none flex items-center gap-3 drop-shadow-lg">
-          <span className="bg-gradient-to-r from-yellow-400 via-blue-400 to-blue-700 bg-clip-text text-transparent animate-gradient-x">GJ</span>
-        </span>
-        <Link
-          href="/"
-          className="relative text-white text-lg font-bold tracking-widest border-b-2 border-blue-400 pb-1 hover:scale-110 hover:text-yellow-300 transition-all duration-200 after:absolute after:left-0 after:-bottom-1 after:w-full after:h-1 after:bg-gradient-to-r after:from-yellow-400 after:to-blue-400 after:rounded-full after:opacity-0 hover:after:opacity-100 after:transition-all after:duration-300"
-        >
-          HOME
-        </Link>
-        <Link
-          href="/cv"
-          className="relative text-blue-200 text-lg font-semibold tracking-widest hover:text-yellow-300 hover:scale-110 transition-all duration-200 pb-1 after:absolute after:left-0 after:-bottom-1 after:w-full after:h-1 after:bg-gradient-to-r after:from-blue-400 after:to-yellow-400 after:rounded-full after:opacity-0 hover:after:opacity-100 after:transition-all after:duration-300"
-        >
-          CV
-        </Link>
-        <Link
-          href="/bio"
-          className="relative text-blue-200 text-lg font-semibold tracking-widest hover:text-yellow-300 hover:scale-110 transition-all duration-200 pb-1 after:absolute after:left-0 after:-bottom-1 after:w-full after:h-1 after:bg-gradient-to-r after:from-blue-400 after:to-yellow-400 after:rounded-full after:opacity-0 hover:after:opacity-100 after:transition-all after:duration-300"
-        >
-          BIO
-        </Link>
-        <Link
-          href="/publications"
-          className="relative text-blue-200 text-lg font-semibold tracking-widest hover:text-yellow-300 hover:scale-110 transition-all duration-200 pb-1 after:absolute after:left-0 after:-bottom-1 after:w-full after:h-1 after:bg-gradient-to-r after:from-blue-400 after:to-yellow-400 after:rounded-full after:opacity-0 hover:after:opacity-100 after:transition-all after:duration-300"
-        >
-          PUBLICATIONS
-        </Link>
-        <Link
-          href="/blog"
-          className="relative text-blue-200 text-lg font-semibold tracking-widest hover:text-yellow-300 hover:scale-110 transition-all duration-200 pb-1 after:absolute after:left-0 after:-bottom-1 after:w-full after:h-1 after:bg-gradient-to-r after:from-blue-400 after:to-yellow-400 after:rounded-full after:opacity-0 hover:after:opacity-100 after:transition-all after:duration-300"
-        >
-          BLOG
-        </Link>
-        <div className="ml-auto flex items-center gap-5">
-          <a href="https://scholar.google.com/citations?user=qsIjwG4AAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="hover:scale-125 transition-transform duration-200 group">
-            <Image src="/globe.svg" alt="GitHub" width={32} height={32} className="w-8 h-8 opacity-80 group-hover:opacity-100 drop-shadow-md group-hover:drop-shadow-blue-400 animate-bounce" />
-          </a>
-          <a href="mailto:gaganjain1582@microsoft.com" className="hover:scale-125 transition-transform duration-200 group">
-            <Image src="/vercel.svg" alt="Email" width={32} height={32} className="w-8 h-8 opacity-80 group-hover:opacity-100 drop-shadow-md group-hover:drop-shadow-yellow-400 animate-pulse" />
-          </a>
-        </div>
-      </nav>
       {/* Hero Section with BG image and overlays */}
       <div
         ref={heroRef}
         className="relative w-full min-h-[60vh] flex flex-col justify-end items-start overflow-hidden lg:aspect-[16/7]"
-        onMouseMove={handleMouseMove}
+        onMouseMove={isTouch ? undefined : handleMouseMove}
         onMouseLeave={handleMouseLeave}
       >
         {/* Profile Image and Gradient Overlay, only for hero */}
         <div className="absolute left-0 top-0 w-full h-full z-0 pointer-events-none">
           <div className="absolute left-0 top-0 w-full h-full bg-gradient-to-br from-[#0f2027] via-[#2c5364] to-[#ff9800] opacity-60" />
           <div className="absolute left-0 top-0 w-full h-full bg-gradient-to-t from-black via-transparent to-transparent opacity-50" />
-          {/* Blurred image, covers the whole hero */}
+          {/* Mobile: Unblurred image, Desktop: Blurred with reveal */}
           <Image
             src="/bg.jpg"
             alt="profile"
             width={1920}
             height={1080}
-            className="absolute left-0 bottom-0 w-full h-full object-cover opacity-98 grayscale-[0.2] contrast-110 rounded-2xl shadow-2xl border-4 border-white/10"
-            style={{
-              maxWidth: 'none',
-              filter: 'blur(18px)',
-              transition: 'filter 0.2s',
-            }}
+            className="absolute left-0 bottom-0 w-full h-full object-cover opacity-98 grayscale-[0.2] contrast-110 rounded-2xl shadow-2xl border-4 border-white/10 block md:hidden"
+            style={{ maxWidth: 'none', filter: 'none' }}
             draggable={false}
           />
-          {/* Unblurred image, only visible in the circular area under the mouse */}
+          {/* Desktop: Blurred image with reveal */}
+          <Image
+            src="/bg.jpg"
+            alt="profile"
+            width={1920}
+            height={1080}
+            className="absolute left-0 bottom-0 w-full h-full object-cover opacity-98 grayscale-[0.2] contrast-110 rounded-2xl shadow-2xl border-4 border-white/10 hidden md:block"
+            style={{ maxWidth: 'none', filter: 'blur(18px)', transition: 'filter 0.2s' }}
+            draggable={false}
+          />
+          {/* Desktop: Unblurred reveal under mouse */}
           {trail.length > 0 && !isTouch && (
             <Image
               src="/bg.jpg"
               alt="profile"
               width={1920}
               height={1080}
-              className="absolute left-0 bottom-0 w-full h-full object-cover opacity-98 grayscale-[0.2] contrast-110 rounded-2xl shadow-2xl border-4 border-white/10 pointer-events-none"
+              className="absolute left-0 bottom-0 w-full h-full object-cover opacity-98 grayscale-[0.2] contrast-110 rounded-2xl shadow-2xl border-4 border-white/10 pointer-events-none hidden md:block"
               style={{
                 maxWidth: 'none',
                 filter: 'none',
@@ -153,8 +115,8 @@ export default function Home() {
             />
           )}
         </div>
-        {/* Horizontal Outlined Name, top right of hero image, outlined style */}
-        <div className="absolute top-8 right-10 z-20">
+        {/* Horizontal Outlined Name, top right of hero image, outlined style (desktop only) */}
+        <div className="absolute top-8 right-10 z-20 hidden md:block">
           <span
             className="font-extrabold text-4xl md:text-6xl tracking-widest uppercase"
             style={{
@@ -173,12 +135,23 @@ export default function Home() {
           </span>
         </div>
         {/* Hero Text Content */}
-        <main className="relative z-20 flex-1 flex flex-col justify-end items-start px-16 pb-24">
-          <div className="max-w-2xl bg-black/60 rounded-2xl p-12 shadow-2xl border border-white/10">
-            <div className="w-20 h-2 bg-gradient-to-r from-yellow-400 to-blue-400 rounded-full mb-8" />
-            <h2 className="text-yellow-400 text-sm font-bold mb-3 tracking-widest uppercase" style={{letterSpacing: '0.18em'}}>Hi, I&apos;m Gagan</h2>
-            <p className="text-gray-200 text-xl md:text-2xl font-medium mb-0 max-w-xl" style={{fontFamily: 'Inter, Segoe UI, Arial, sans-serif'}}>Machine Learning Researcher</p>
-            <div className="text-blue-400 text-2xl md:text-3xl font-extrabold mb-4 tracking-wider uppercase" style={{fontFamily: 'Inter, Segoe UI, Arial, sans-serif'}}>Microsoft AI</div>
+        {/* Desktop: original position, Mobile: bottom left small box */}
+        <main className="relative z-20 flex-1 flex flex-col justify-end items-start px-4 md:px-16 pb-6 md:pb-24">
+          <div className="max-w-2xl bg-black/60 rounded-2xl p-4 md:p-12 shadow-2xl border border-white/10"
+            style={{
+              position: 'absolute',
+              left: 0,
+              bottom: 0,
+              margin: '1rem',
+              width: '90vw',
+              maxWidth: '320px',
+              display: 'block',
+            }}
+          >
+            <div className="w-20 h-2 bg-gradient-to-r from-yellow-400 to-blue-400 rounded-full mb-4 md:mb-8" />
+            <h2 className="text-yellow-400 text-xs md:text-sm font-bold mb-2 md:mb-3 tracking-widest uppercase" style={{letterSpacing: '0.18em'}}>Hi, I&apos;m Gagan</h2>
+            <p className="text-gray-200 text-base md:text-xl font-medium mb-0 max-w-xl" style={{fontFamily: 'Inter, Segoe UI, Arial, sans-serif'}}>Machine Learning Researcher</p>
+            <div className="text-blue-400 text-lg md:text-2xl font-extrabold mb-2 md:mb-4 tracking-wider uppercase" style={{fontFamily: 'Inter, Segoe UI, Arial, sans-serif'}}>Microsoft AI</div>
           </div>
         </main>
       </div>
@@ -333,23 +306,23 @@ export default function Home() {
                 icon: "🎉",
                 content: <span>Moved to <b>Microsoft AI.</b> Working on Retrieval Augmented Generation.</span>
               }, {
-                date: "[May&apos;25]",
+                date: "[May'25]",
                 icon: "📄",
                 content: <span><a href='https://arxiv.org/abs/2502.00382' className="text-blue-400 underline hover:text-yellow-400 font-semibold"><b>Decode time scaling</b></a> accepted at <b>ICML&apos;25</b> &amp; <b>ICLR&apos;25 Workshop</b>.</span>
               }, {
-                date: "[Dec&apos;24]",
+                date: "[Dec'24]",
                 icon: "📄",
                 content: <span><a href="https://arxiv.org/abs/2410.21405" className="text-blue-400 underline hover:text-yellow-400 font-semibold"><b>Collaborative bandits</b></a> accepted at <b>AAMAS&apos;25</b>! Optimal regret bounds!</span>
               }, {
-                date: "[Dec&apos;24]",
+                date: "[Dec'24]",
                 icon: "🎤",
                 content: <span>Presented DL efficiency at <a href="https://www.uclaml.org/" className="text-blue-400 underline hover:text-yellow-400 font-semibold">UCLA Artificial General Intelligence Lab</a>.</span>
               }, {
-                date: "[May&apos;24]",
+                date: "[May'24]",
                 icon: "🚀",
                 content: <span>Joined Google DeepMind&apos;s Foundational Research Unit.</span>
               }, {
-                date: "[Sep&apos;23]",
+                date: "[Sep'23]",
                 icon: "🚀",
                 content: <span>Started as Pre-doctoral Researcher at Google Research.</span>
               }].map((item, idx) => (

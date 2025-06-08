@@ -1,75 +1,9 @@
-import Link from "next/link";
 import Image from "next/image";
 
 export default function CVPage() {
   return (
     <div className="min-h-screen flex flex-col relative overflow-hidden bg-black">
-      {/* Top Navigation - modern, spaced, and fixed at the very top with logo */}
-      <nav className="fixed top-0 left-0 w-full flex items-center gap-10 px-10 py-5 z-30 bg-gradient-to-r from-black/90 via-blue-950/80 to-yellow-900/70 backdrop-blur-2xl border-b-2 border-blue-400/30 shadow-2xl shadow-blue-900/30 animate-fade-in-down">
-        <span className="text-white text-3xl font-extrabold tracking-widest mr-14 select-none flex items-center gap-3 drop-shadow-lg">
-          <span className="bg-gradient-to-r from-yellow-400 via-blue-400 to-blue-700 bg-clip-text text-transparent animate-gradient-x">
-            GJ
-          </span>
-        </span>
-        <Link
-          href="/"
-          className="relative text-white text-lg font-bold tracking-widest border-b-2 border-blue-400 pb-1 hover:scale-110 hover:text-yellow-300 transition-all duration-200 after:absolute after:left-0 after:-bottom-1 after:w-full after:h-1 after:bg-gradient-to-r after:from-yellow-400 after:to-blue-400 after:rounded-full after:opacity-0 hover:after:opacity-100 after:transition-all after:duration-300"
-        >
-          HOME
-        </Link>
-        <Link
-          href="/cv"
-          className="relative text-blue-200 text-lg font-semibold tracking-widest hover:text-yellow-300 hover:scale-110 transition-all duration-200 pb-1 after:absolute after:left-0 after:-bottom-1 after:w-full after:h-1 after:bg-gradient-to-r after:from-blue-400 after:to-yellow-400 after:rounded-full after:opacity-0 hover:after:opacity-100 after:transition-all after:duration-300"
-        >
-          CV
-        </Link>
-        <Link
-          href="/bio"
-          className="relative text-blue-200 text-lg font-semibold tracking-widest hover:text-yellow-300 hover:scale-110 transition-all duration-200 pb-1 after:absolute after:left-0 after:-bottom-1 after:w-full after:h-1 after:bg-gradient-to-r after:from-blue-400 after:to-yellow-400 after:rounded-full after:opacity-0 hover:after:opacity-100 after:transition-all after:duration-300"
-        >
-          BIO
-        </Link>
-        <Link
-          href="/publications"
-          className="relative text-blue-200 text-lg font-semibold tracking-widest hover:text-yellow-300 hover:scale-110 transition-all duration-200 pb-1 after:absolute after:left-0 after:-bottom-1 after:w-full after:h-1 after:bg-gradient-to-r after:from-blue-400 after:to-yellow-400 after:rounded-full after:opacity-0 hover:after:opacity-100 after:transition-all after:duration-300"
-        >
-          PUBLICATIONS
-        </Link>
-        <Link
-          href="/blog"
-          className="relative text-blue-200 text-lg font-semibold tracking-widest hover:text-yellow-300 hover:scale-110 transition-all duration-200 pb-1 after:absolute after:left-0 after:-bottom-1 after:w-full after:h-1 after:bg-gradient-to-r after:from-blue-400 after:to-yellow-400 after:rounded-full after:opacity-0 hover:after:opacity-100 after:transition-all after:duration-300"
-        >
-          BLOG
-        </Link>
-        <div className="ml-auto flex items-center gap-5">
-          <a
-            href="https://github.com/gaganjain1582"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:scale-125 transition-transform duration-200 group"
-          >
-            <Image
-              src="/globe.svg"
-              alt="GitHub"
-              width={32}
-              height={32}
-              className="w-8 h-8 opacity-80 group-hover:opacity-100 drop-shadow-md group-hover:drop-shadow-blue-400 animate-bounce"
-            />
-          </a>
-          <a
-            href="mailto:gagan.jain@microsoft.com"
-            className="hover:scale-125 transition-transform duration-200 group"
-          >
-            <Image
-              src="/vercel.svg"
-              alt="Email"
-              width={32}
-              height={32}
-              className="w-8 h-8 opacity-80 group-hover:opacity-100 drop-shadow-md group-hover:drop-shadow-yellow-400 animate-pulse"
-            />
-          </a>
-        </div>
-      </nav>
+      {/* Removed custom <nav> to use global Navbar */}
       <main className="min-h-screen flex flex-col items-center justify-start bg-black/90 px-4 pt-32 pb-16">
         {/* PDF Download Button */}
         <div className="w-full max-w-3xl flex justify-end mb-2 animate-fade-in-up">
