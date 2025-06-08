@@ -33,7 +33,7 @@ export default function Navbar() {
       {/* Mobile dropdown */}
       {menuOpen && (
         <div className="md:hidden bg-black/95 border-t border-blue-400/20 px-6 pb-4 pt-2 animate-fade-in-down">
-          <NavLinks pathname={pathname} mobile />
+          <NavLinks pathname={pathname} />
           <div className="mt-4"><NavIcons /></div>
         </div>
       )}
@@ -41,7 +41,7 @@ export default function Navbar() {
   );
 }
 
-function NavLinks({ pathname, mobile }: { pathname: string, mobile?: boolean }) {
+function NavLinks({ pathname }: { pathname: string }) {
   const linkClass = (active: boolean) =>
     `block relative text-lg tracking-widest pb-1 transition-all duration-200 my-2 md:my-0 after:absolute after:left-0 after:-bottom-1 after:w-full after:h-1 after:bg-gradient-to-r after:from-yellow-400 after:to-blue-400 after:rounded-full ${
       active
