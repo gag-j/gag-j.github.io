@@ -1,11 +1,20 @@
+function AuroraBackground() {
+  return (
+    <div className="absolute inset-0 -z-10 overflow-hidden">
+      <div className="aurora-1" />
+      <div className="aurora-2" />
+      <div className="aurora-3" />
+    </div>
+  );
+}
+
 export default function BioPage() {
   return (
-    <div className="min-h-screen flex flex-col relative overflow-hidden bg-black">
-      {/* Removed custom <nav> to use global Navbar */}
-      <main className="min-h-screen flex flex-col items-center justify-start bg-black/90 px-4 pt-32 pb-16">
-        <h1 className="text-5xl md:text-6xl font-extrabold mb-12 tracking-tight flex items-center gap-4 bg-gradient-to-r from-blue-400 via-yellow-400 to-blue-700 bg-clip-text text-transparent animate-gradient-x drop-shadow-xl" style={{ fontFamily: 'Montserrat, Inter, Segoe UI, Arial, sans-serif', letterSpacing: '-1px' }}>
-          <span className="inline-block align-middle text-5xl">👤</span>
-          <span>About Me</span>
+    <div className="min-h-screen flex flex-col relative overflow-hidden">
+      <AuroraBackground />
+      <main className="min-h-screen flex flex-col items-center justify-start px-4 pt-32 pb-16 backdrop-blur-sm">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-black mb-10 tracking-tight drop-shadow-lg">
+          Bio
         </h1>
         <section className="w-full max-w-3xl bg-black/60 rounded-2xl p-10 shadow-2xl border border-white/10 text-gray-200 animate-fade-in-up mb-10">
           <div className="text-lg md:text-xl leading-relaxed mb-8">

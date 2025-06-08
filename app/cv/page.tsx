@@ -1,10 +1,20 @@
 import Image from "next/image";
 
+function AuroraBackground() {
+  return (
+    <div className="absolute inset-0 -z-10 overflow-hidden">
+      <div className="aurora-1" />
+      <div className="aurora-2" />
+      <div className="aurora-3" />
+    </div>
+  );
+}
+
 export default function CVPage() {
   return (
-    <div className="min-h-screen flex flex-col relative overflow-hidden bg-black">
-      {/* Removed custom <nav> to use global Navbar */}
-      <main className="min-h-screen flex flex-col items-center justify-start bg-black/90 px-4 pt-32 pb-16">
+    <div className="min-h-screen flex flex-col relative overflow-hidden">
+      <AuroraBackground />
+      <main className="min-h-screen flex flex-col items-center justify-start px-4 pt-32 pb-16 backdrop-blur-sm">
         {/* PDF Download Button */}
         <div className="w-full max-w-3xl flex justify-end mb-2 animate-fade-in-up">
           <a
@@ -16,8 +26,8 @@ export default function CVPage() {
             <span className="text-2xl">📄</span> Download PDF Version
           </a>
         </div>
-        <h1 className="text-4xl md:text-5xl font-extrabold text-blue-400 mb-10 tracking-tight">
-          Curriculum Vitae
+        <h1 className="text-4xl md:text-5xl font-extrabold text-black mb-10 tracking-tight drop-shadow-lg">
+          CV
         </h1>
         <section className="w-full max-w-3xl bg-black/60 rounded-2xl p-10 shadow-2xl border border-white/10 text-gray-200 animate-fade-in-up">
           {/* Work Experience Cards */}

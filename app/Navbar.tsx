@@ -2,7 +2,6 @@
 import React from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -61,32 +60,32 @@ function NavLinks({ pathname }: { pathname: string }) {
 
 function NavIcons() {
   return (
-    <div className="flex items-center gap-5 mt-2 md:mt-0">
+    <div className="flex items-center gap-6 mt-2 md:mt-0 justify-end w-full pr-2">
+      {/* Google Scholar Icon */}
       <a
         href="https://scholar.google.com/citations?user=qsIjwG4AAAAJ&hl=en"
         target="_blank"
         rel="noopener noreferrer"
         className="hover:scale-125 transition-transform duration-200 group"
+        title="Google Scholar"
       >
-        <Image
-          src="/globe.svg"
-          alt="GitHub"
-          width={32}
-          height={32}
-          className="w-8 h-8 opacity-80 group-hover:opacity-100 drop-shadow-md group-hover:drop-shadow-blue-400 animate-bounce"
-        />
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="36" height="36" fill="none">
+          <circle cx="24" cy="24" r="24" fill="#4285F4" />
+          <path d="M24 13L36 28H12L24 13Z" fill="#fff"/>
+          <rect x="18" y="30" width="12" height="3" rx="1.5" fill="#fff"/>
+        </svg>
       </a>
+      {/* Email Icon */}
       <a
         href="mailto:gaganjain1582@microsoft.com"
         className="hover:scale-125 transition-transform duration-200 group"
+        title="Email"
       >
-        <Image
-          src="/vercel.svg"
-          alt="Email"
-          width={32}
-          height={32}
-          className="w-8 h-8 opacity-80 group-hover:opacity-100 drop-shadow-md group-hover:drop-shadow-yellow-400 animate-pulse"
-        />
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="34" height="34" fill="none">
+          <rect width="24" height="24" rx="6" fill="#22223b"/>
+          <path d="M5 8.5l7 5 7-5" stroke="#fff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+          <rect x="5" y="8" width="14" height="8" rx="2" stroke="#fff" strokeWidth="1.5"/>
+        </svg>
       </a>
     </div>
   );

@@ -1,10 +1,18 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-// import ReactMarkdown from "react-markdown";
-// import remarkMath from "remark-math";
-// import rehypeKatex from "rehype-katex";
 import "katex/dist/katex.min.css";
+
+// Aurora background component
+function AuroraBackground() {
+	return (
+		<div className="absolute inset-0 -z-10 overflow-hidden">
+			<div className="aurora-1" />
+			<div className="aurora-2" />
+			<div className="aurora-3" />
+		</div>
+	);
+}
 
 // const markdown = `# Blog
 
@@ -67,9 +75,10 @@ export default function BlogPage() {
 	const [activeTab, setActiveTab] = useState(topics[0].key);
 	const currentTopic = topics.find((t) => t.key === activeTab);
 	return (
-		<div className="min-h-screen flex flex-col relative overflow-hidden bg-black">
-			<main className="min-h-screen flex flex-col items-center justify-start bg-black/90 px-4 pt-32 pb-16">
-				<h1 className="text-4xl md:text-5xl font-extrabold text-blue-400 mb-10 tracking-tight">
+		<div className="min-h-screen flex flex-col relative overflow-hidden">
+			<AuroraBackground />
+			<main className="min-h-screen flex flex-col items-center justify-start px-4 pt-32 pb-16 backdrop-blur-sm">
+				<h1 className="text-4xl md:text-5xl font-extrabold text-black mb-10 tracking-tight drop-shadow-lg">
 					Blog
 				</h1>
 				{/* Tabs for topics */}
