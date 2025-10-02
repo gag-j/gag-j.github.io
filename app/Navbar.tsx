@@ -53,7 +53,7 @@ function NavLinks({ pathname }: { pathname: string }) {
       <Link href="/cv" className={linkClass(pathname.startsWith("/cv"))}>CV</Link>
       <Link href="/bio" className={linkClass(pathname.startsWith("/bio"))}>BIO</Link>
       <Link href="/publications" className={linkClass(pathname.startsWith("/publications"))}>PUBLICATIONS</Link>
-      <Link href="/blog" className={linkClass(pathname.startsWith("/blog"))}>BLOG</Link>
+      {/* <Link href="/blog" className={linkClass(pathname.startsWith("/blog"))}>BLOG</Link> */}
     </>
   );
 }
