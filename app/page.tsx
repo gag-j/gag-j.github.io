@@ -320,23 +320,23 @@ export default function Home() {
               <ul className="space-y-5 text-[1.09em] pl-0 list-none">
                 {/* News Card Example */}
                 {[{
-                date: "[Dec&apos;25]",
+                date: "[Dec'25]",
                 icon: "🎉",
                 content: <span>Speaking at <a href='https://www.wadla.in/' className="text-blue-400 underline hover:text-yellow-400 font-semibold">WADLA 4.0</a> at IIITDM Jabalpur.</span>
               }, {
-                date: "[Dec&apos;25]",
+                date: "[Dec'25]",
                 icon: "📄",
-                content: <span>Organising a workshop on <a href='https://spoticlr.github.io/'>Scaling Post Training for LLMs</a> at <b>ICLR 2026</b>.</span>
+                content: <span>Organising <a href='https://spoticlr.github.io/' className="text-blue-400 underline hover:text-yellow-400 font-semibold">Scaling Post Training for LLMs</a> workshop at <b>ICLR 2026</b>.</span>
               }, {
-                date: "[May&apos;25]",
+                date: "[May'25]",
                 icon: "📄",
                 content: <span><a href='https://arxiv.org/abs/2502.00382' className="text-blue-400 underline hover:text-yellow-400 font-semibold">Decode time scaling</a> accepted at <b>ICML&apos;25</b> &amp; <b>ICLR&apos;25 Workshop</b>.</span>
               }, {
-                date: "[Dec&apos;24]",
+                date: "[Dec'24]",
                 icon: "📄",
                 content: <span><a href="https://arxiv.org/abs/2410.21405" className="text-blue-400 underline hover:text-yellow-400 font-semibold">Collaborative bandits</a> accepted at <b>AAMAS&apos;25</b>! Optimal regret bounds!</span>
               }, {
-                date: "[Dec&apos;24]",
+                date: "[Dec'24]",
                 icon: "🎤",
                 content: <span>Presented efficient inference at <a href="https://www.uclaml.org/" className="text-blue-400 underline hover:text-yellow-400 font-semibold">UCLA Artificial General Intelligence Lab</a>.</span>
               }].map((item, idx) => (
