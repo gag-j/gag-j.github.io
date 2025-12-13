@@ -321,11 +321,11 @@ export default function Home() {
                 {/* News Card Example */}
                 {[{
                 date: "[Dec'25]",
-                icon: "🎉",
+                icon: "🎤",
                 content: <span>Speaking at <a href='https://www.wadla.in/' className="text-blue-400 underline hover:text-yellow-400 font-semibold">WADLA 4.0</a> at IIITDM Jabalpur.</span>
               }, {
                 date: "[Dec'25]",
-                icon: "📄",
+                icon: "🎉",
                 content: <span>Organising <a href='https://spoticlr.github.io/' className="text-blue-400 underline hover:text-yellow-400 font-semibold">Scaling Post Training for LLMs</a> workshop at <b>ICLR 2026</b>.</span>
               }, {
                 date: "[May'25]",
