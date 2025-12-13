@@ -320,30 +320,26 @@ export default function Home() {
               <ul className="space-y-5 text-[1.09em] pl-0 list-none">
                 {/* News Card Example */}
                 {[{
-                  date: "[May'25]",
-                  icon: "🎉",
-                  content: <span>Moved to <b>Microsoft AI.</b> Working on Retrieval Augmented Generation.</span>
-                }, {
-                  date: "[May'25]",
-                  icon: "📄",
-                  content: <span><a href='https://arxiv.org/abs/2502.00382' className="text-blue-400 underline hover:text-yellow-400 font-semibold"><b>Decode time scaling</b></a> accepted at <b>ICML&apos;25</b> &amp; <b>ICLR&apos;25 Workshop</b>.</span>
-                }, {
-                  date: "[Dec'24]",
-                  icon: "📄",
-                  content: <span><a href="https://arxiv.org/abs/2410.21405" className="text-blue-400 underline hover:text-yellow-400 font-semibold"><b>Collaborative bandits</b></a> accepted at <b>AAMAS&apos;25</b>! Optimal regret bounds!</span>
-                }, {
-                  date: "[Dec'24]",
-                  icon: "🎤",
-                  content: <span>Presented DL efficiency at <a href="https://www.uclaml.org/" className="text-blue-400 underline hover:text-yellow-400 font-semibold">UCLA Artificial General Intelligence Lab</a>.</span>
-                }, {
-                  date: "[May'24]",
-                  icon: "🚀",
-                  content: <span>Joined Google DeepMind&apos;s Foundational Research Unit.</span>
-                }, {
-                  date: "[Sep'23]",
-                  icon: "🚀",
-                  content: <span>Started as Pre-doctoral Researcher at Google Research.</span>
-                }].map((item, idx) => (
+                date: "[Dec&apos;25]",
+                icon: "🎉",
+                content: <span>Speaking at <a href='https://www.wadla.in/' className="text-blue-400 underline hover:text-yellow-400 font-semibold">WADLA 4.0</a> at IIITDM Jabalpur.</span>
+              }, {
+                date: "[Dec&apos;25]",
+                icon: "📄",
+                content: <span>Organising a workshop on <a href='https://spoticlr.github.io/'>Scaling Post Training for LLMs</a> at <b>ICLR 2026</b>.</span>
+              }, {
+                date: "[May&apos;25]",
+                icon: "📄",
+                content: <span><a href='https://arxiv.org/abs/2502.00382' className="text-blue-400 underline hover:text-yellow-400 font-semibold">Decode time scaling</a> accepted at <b>ICML&apos;25</b> &amp; <b>ICLR&apos;25 Workshop</b>.</span>
+              }, {
+                date: "[Dec&apos;24]",
+                icon: "📄",
+                content: <span><a href="https://arxiv.org/abs/2410.21405" className="text-blue-400 underline hover:text-yellow-400 font-semibold">Collaborative bandits</a> accepted at <b>AAMAS&apos;25</b>! Optimal regret bounds!</span>
+              }, {
+                date: "[Dec&apos;24]",
+                icon: "🎤",
+                content: <span>Presented efficient inference at <a href="https://www.uclaml.org/" className="text-blue-400 underline hover:text-yellow-400 font-semibold">UCLA Artificial General Intelligence Lab</a>.</span>
+              }].map((item, idx) => (
                   <li key={idx} className="relative group bg-gradient-to-br from-blue-900/80 via-yellow-900/30 to-blue-700/50 rounded-2xl px-6 py-4 shadow-xl border border-blue-400/20 flex items-start gap-4 hover:scale-[1.03] hover:shadow-blue-400/20 transition-transform duration-200 overflow-hidden">
                     <span className="absolute left-0 top-0 w-1 h-full bg-gradient-to-b from-blue-400 via-yellow-400 to-blue-700 rounded-l-2xl opacity-80" />
                     <span className="text-red-600 font-bold mt-1 min-w-[70px]">{item.date}</span>
