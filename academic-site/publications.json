@@ -1,0 +1,42 @@
+[
+  [
+    "2026",
+    "Preprint",
+    "Adaptive Block Diffusion: Resolving Training-Inference Mismatch in Diffusion Language Models",
+    "Gagan Jain",
+    "Training over varied prefix-window configurations to support flexible decoding in diffusion language models.",
+    "2606.29275"
+  ],
+  [
+    "2025",
+    "ICML",
+    "Masked Generative Nested Transformers with Decode Time Scaling",
+    "Sahil Goyal, Debapriya Tula, Gagan Jain, Pradeep Shenoy, Prateek Jain, Sujoy Paul",
+    "Decode-time model scaling and computation reuse for efficient image and video generation.",
+    "2502.00382"
+  ],
+  [
+    "2025",
+    "AAMAS",
+    "Bayesian Collaborative Bandits with Thompson Sampling for Improved Outreach in Maternal Health Program",
+    "Arpan Dasgupta, Gagan Jain, Arun Suggala, Karthikeyan Shanmugam, Milind Tambe, Aparna Taneja",
+    "A Bayesian approach to collaborative bandits for more effective maternal health outreach.",
+    "2410.21405"
+  ],
+  [
+    "2024",
+    "NeurIPS",
+    "Mixture of Nested Experts: Adaptive Processing of Visual Tokens",
+    "Gagan Jain, Nidhi Hegde, Aditya Kusupati, Arsha Nagrani, Shyamal Buch, Prateek Jain, Anurag Arnab, Sujoy Paul",
+    "Routing visual tokens through nested experts to allocate computation where it matters.",
+    "2407.19985"
+  ],
+  [
+    "2024",
+    "ECCV",
+    "LookupViT: Compressing visual information to a limited number of tokens",
+    "Rajat Koner, Gagan Jain, Prateek Jain, Volker Tresp, Sujoy Paul",
+    "Compressing visual information into fewer tokens while retaining a high-resolution lookup representation.",
+    "2407.12753"
+  ]
+]
